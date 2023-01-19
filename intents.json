@@ -1,0 +1,62 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hi! There",
+        "How are you?",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello"
+      ],
+      "responses": [
+        "Hello!, Thanks for asking",
+        "Good to see you again",
+        "Hi There!,How can I help you?"
+      ]
+    },
+    {
+      "tag": "Goodbye",
+      "patterns": [
+        "Bye!,See you later",
+        "Goodbye",
+        "Nice chatting to you,bye",
+        "Till next time",
+        "Hola",
+        "Hello"
+      ],
+      "responses": [
+        "Hello!, Thanks for asking",
+        "Good to see you again",
+        "Hi There!,How can I help you?"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks!",
+        "Thank you.",
+        "That's helpful",
+        "Awesome, thanks!",
+        "Thanks for helping me!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure."
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [
+        ""
+      ],
+      "responses": [
+        "Sorry, can't understand you.",
+        "Please give me more info.",
+        "Not sure I understand."
+      ]
+    }
+  ]
+}
